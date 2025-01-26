@@ -1,0 +1,23 @@
+{
+  "originHash" : "568c8e51fe3ec9984d78f5d7f7cde09a4c65a91b97e186451fdc2777ea47ed55",
+  "pins" : [
+    {
+      "identity" : "keyboardkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KeyboardKit/KeyboardKit.git",
+      "state" : {
+        "revision" : "a93e50892bc20451448337386415c818cc6d8d15"
+      }
+    },
+    {
+      "identity" : "uionboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lascic/UIOnboarding",
+      "state" : {
+        "revision" : "88d304a0a78b608fd993c9065bb86631f962aaf9",
+        "version" : "2.0.4"
+      }
+    }
+  ],
+  "version" : 3
+}

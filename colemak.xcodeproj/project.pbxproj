@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5664BB2B7EF0970094F87D /* colemakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5664BA2B7EF0970094F87D /* colemakApp.swift */; };
+		5D5664BD2B7EF0970094F87D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5664BC2B7EF0970094F87D /* ContentView.swift */; };
+		5D5664C12B7EF0980094F87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5664C02B7EF0980094F87D /* Assets.xcassets */; };
+		5D5664C42B7EF0980094F87D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5664C32B7EF0980094F87D /* Preview Assets.xcassets */; };
+		5D86AE952D4152BA00D73D06 /* ColemakKeyboardTabbed.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D86AE8E2D4152BA00D73D06 /* ColemakKeyboardTabbed.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D86AE9C2D41531700D73D06 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D86AE9B2D41531700D73D06 /* KeyboardKit */; };
+		5D87339F2B7F88C9001A176F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D87339E2B7F88C9001A176F /* KeyboardViewController.swift */; };
+		5D8733A32B7F88C9001A176F /* ColemakKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D87339C2B7F88C9001A176F /* ColemakKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D8733B62B7F8FF4001A176F /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8733B52B7F8FF4001A176F /* KeyboardKit */; };
+		5D8733B82B7F8FFB001A176F /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8733B72B7F8FFB001A176F /* KeyboardKit */; };
+		5D8733BA2B7F9044001A176F /* LayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8733B92B7F9044001A176F /* LayoutProvider.swift */; };
+		5D8733C32B7FC6CC001A176F /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 5D8733C22B7FC6CC001A176F /* UIOnboarding */; };
+		5DF1FAAB2D416421006F2067 /* ColemakKeyboardDH.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5DF1FAA42D416421006F2067 /* ColemakKeyboardDH.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5DF1FAB52D416460006F2067 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5DF1FAB42D416460006F2067 /* KeyboardKit */; };
+		5DF1FAC12D416865006F2067 /* ColemakKeyboardOG.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5DF1FABA2D416864006F2067 /* ColemakKeyboardOG.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5DF1FACB2D416963006F2067 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5DF1FACA2D416963006F2067 /* KeyboardKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D86AE932D4152BA00D73D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5664AF2B7EF0970094F87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D86AE8D2D4152BA00D73D06;
+			remoteInfo = ColemakKeyboardTabbed;
+		};
+		5D8733A12B7F88C9001A176F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5664AF2B7EF0970094F87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D87339B2B7F88C9001A176F;
+			remoteInfo = ColemakKeyboard;
+		};
+		5DF1FAA92D416421006F2067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5664AF2B7EF0970094F87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF1FAA32D416421006F2067;
+			remoteInfo = ColemakKeyboardDH;
+		};
+		5DF1FABF2D416865006F2067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5664AF2B7EF0970094F87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF1FAB92D416864006F2067;
+			remoteInfo = ColemakKeyboardOG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D8733A42B7F88C9001A176F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5DF1FAAB2D416421006F2067 /* ColemakKeyboardDH.appex in Embed Foundation Extensions */,
+				5D86AE952D4152BA00D73D06 /* ColemakKeyboardTabbed.appex in Embed Foundation Extensions */,
+				5DF1FAC12D416865006F2067 /* ColemakKeyboardOG.appex in Embed Foundation Extensions */,
+				5D8733A32B7F88C9001A176F /* ColemakKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D5664B72B7EF0970094F87D /* colemak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colemak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5664BA2B7EF0970094F87D /* colemakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colemakApp.swift; sourceTree = "<group>"; };
+		5D5664BC2B7EF0970094F87D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D5664C02B7EF0980094F87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5664C32B7EF0980094F87D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D86AE8E2D4152BA00D73D06 /* ColemakKeyboardTabbed.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ColemakKeyboardTabbed.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D87339C2B7F88C9001A176F /* ColemakKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ColemakKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D87339E2B7F88C9001A176F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		5D8733A02B7F88C9001A176F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8733B92B7F9044001A176F /* LayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProvider.swift; sourceTree = "<group>"; };
+		5DF1FAA42D416421006F2067 /* ColemakKeyboardDH.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ColemakKeyboardDH.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF1FABA2D416864006F2067 /* ColemakKeyboardOG.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ColemakKeyboardOG.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5D86AE982D4152BA00D73D06 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5D86AE8D2D4152BA00D73D06 /* ColemakKeyboardTabbed */;
+		};
+		5DF1FAAC2D416421006F2067 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5DF1FAA32D416421006F2067 /* ColemakKeyboardDH */;
+		};
+		5DF1FAC22D416865006F2067 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5DF1FAB92D416864006F2067 /* ColemakKeyboardOG */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5D86AE8F2D4152BA00D73D06 /* ColemakKeyboardTabbed */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (5D86AE982D4152BA00D73D06 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ColemakKeyboardTabbed; sourceTree = "<group>"; };
+		5DF1FAA52D416421006F2067 /* ColemakKeyboardDH */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (5DF1FAAC2D416421006F2067 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ColemakKeyboardDH; sourceTree = "<group>"; };
+		5DF1FABB2D416865006F2067 /* ColemakKeyboardOG */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (5DF1FAC22D416865006F2067 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ColemakKeyboardOG; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5664B42B7EF0970094F87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8733B62B7F8FF4001A176F /* KeyboardKit in Frameworks */,
+				5D8733C32B7FC6CC001A176F /* UIOnboarding in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D86AE8B2D4152BA00D73D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D86AE9C2D41531700D73D06 /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8733992B7F88C9001A176F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8733B82B7F8FFB001A176F /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF1FAA12D416421006F2067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF1FAB52D416460006F2067 /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF1FAB72D416864006F2067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF1FACB2D416963006F2067 /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5664AE2B7EF0970094F87D = {
+			isa = PBXGroup;
+			children = (
+				5D5664B92B7EF0970094F87D /* colemak */,
+				5D87339D2B7F88C9001A176F /* ColemakKeyboard */,
+				5D86AE8F2D4152BA00D73D06 /* ColemakKeyboardTabbed */,
+				5DF1FAA52D416421006F2067 /* ColemakKeyboardDH */,
+				5DF1FABB2D416865006F2067 /* ColemakKeyboardOG */,
+				5D86AE9A2D41531700D73D06 /* Frameworks */,
+				5D5664B82B7EF0970094F87D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5664B82B7EF0970094F87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5664B72B7EF0970094F87D /* colemak.app */,
+				5D87339C2B7F88C9001A176F /* ColemakKeyboard.appex */,
+				5D86AE8E2D4152BA00D73D06 /* ColemakKeyboardTabbed.appex */,
+				5DF1FAA42D416421006F2067 /* ColemakKeyboardDH.appex */,
+				5DF1FABA2D416864006F2067 /* ColemakKeyboardOG.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5664B92B7EF0970094F87D /* colemak */ = {
+			isa = PBXGroup;
+			children = (
+				5D5664BA2B7EF0970094F87D /* colemakApp.swift */,
+				5D5664BC2B7EF0970094F87D /* ContentView.swift */,
+				5D5664C02B7EF0980094F87D /* Assets.xcassets */,
+				5D5664C22B7EF0980094F87D /* Preview Content */,
+			);
+			path = colemak;
+			sourceTree = "<group>";
+		};
+		5D5664C22B7EF0980094F87D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D5664C32B7EF0980094F87D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D86AE9A2D41531700D73D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D87339D2B7F88C9001A176F /* ColemakKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5D8733A02B7F88C9001A176F /* Info.plist */,
+				5D87339E2B7F88C9001A176F /* KeyboardViewController.swift */,
+				5D8733B92B7F9044001A176F /* LayoutProvider.swift */,
+			);
+			path = ColemakKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5664B62B7EF0970094F87D /* colemak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5664C72B7EF0980094F87D /* Build configuration list for PBXNativeTarget "colemak" */;
+			buildPhases = (
+				5D5664B32B7EF0970094F87D /* Sources */,
+				5D5664B42B7EF0970094F87D /* Frameworks */,
+				5D5664B52B7EF0970094F87D /* Resources */,
+				5D8733A42B7F88C9001A176F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8733A22B7F88C9001A176F /* PBXTargetDependency */,
+				5D86AE942D4152BA00D73D06 /* PBXTargetDependency */,
+				5DF1FAAA2D416421006F2067 /* PBXTargetDependency */,
+				5DF1FAC02D416865006F2067 /* PBXTargetDependency */,
+			);
+			name = colemak;
+			packageProductDependencies = (
+				5D8733B52B7F8FF4001A176F /* KeyboardKit */,
+				5D8733C22B7FC6CC001A176F /* UIOnboarding */,
+			);
+			productName = colemak;
+			productReference = 5D5664B72B7EF0970094F87D /* colemak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D86AE8D2D4152BA00D73D06 /* ColemakKeyboardTabbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D86AE992D4152BA00D73D06 /* Build configuration list for PBXNativeTarget "ColemakKeyboardTabbed" */;
+			buildPhases = (
+				5D86AE8A2D4152BA00D73D06 /* Sources */,
+				5D86AE8B2D4152BA00D73D06 /* Frameworks */,
+				5D86AE8C2D4152BA00D73D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5D86AE8F2D4152BA00D73D06 /* ColemakKeyboardTabbed */,
+			);
+			name = ColemakKeyboardTabbed;
+			packageProductDependencies = (
+				5D86AE9B2D41531700D73D06 /* KeyboardKit */,
+			);
+			productName = ColemakKeyboardTabbed;
+			productReference = 5D86AE8E2D4152BA00D73D06 /* ColemakKeyboardTabbed.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5D87339B2B7F88C9001A176F /* ColemakKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8733A72B7F88C9001A176F /* Build configuration list for PBXNativeTarget "ColemakKeyboard" */;
+			buildPhases = (
+				5D8733982B7F88C9001A176F /* Sources */,
+				5D8733992B7F88C9001A176F /* Frameworks */,
+				5D87339A2B7F88C9001A176F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColemakKeyboard;
+			packageProductDependencies = (
+				5D8733B72B7F8FFB001A176F /* KeyboardKit */,
+			);
+			productName = ColemakKeyboard;
+			productReference = 5D87339C2B7F88C9001A176F /* ColemakKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5DF1FAA32D416421006F2067 /* ColemakKeyboardDH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF1FAAD2D416421006F2067 /* Build configuration list for PBXNativeTarget "ColemakKeyboardDH" */;
+			buildPhases = (
+				5DF1FAA02D416421006F2067 /* Sources */,
+				5DF1FAA12D416421006F2067 /* Frameworks */,
+				5DF1FAA22D416421006F2067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5DF1FAA52D416421006F2067 /* ColemakKeyboardDH */,
+			);
+			name = ColemakKeyboardDH;
+			packageProductDependencies = (
+				5DF1FAB42D416460006F2067 /* KeyboardKit */,
+			);
+			productName = ColemakKeyboardDH;
+			productReference = 5DF1FAA42D416421006F2067 /* ColemakKeyboardDH.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5DF1FAB92D416864006F2067 /* ColemakKeyboardOG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF1FAC32D416865006F2067 /* Build configuration list for PBXNativeTarget "ColemakKeyboardOG" */;
+			buildPhases = (
+				5DF1FAB62D416864006F2067 /* Sources */,
+				5DF1FAB72D416864006F2067 /* Frameworks */,
+				5DF1FAB82D416864006F2067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5DF1FABB2D416865006F2067 /* ColemakKeyboardOG */,
+			);
+			name = ColemakKeyboardOG;
+			packageProductDependencies = (
+				5DF1FACA2D416963006F2067 /* KeyboardKit */,
+			);
+			productName = ColemakKeyboardOG;
+			productReference = 5DF1FABA2D416864006F2067 /* ColemakKeyboardOG.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5664AF2B7EF0970094F87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5D5664B62B7EF0970094F87D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5D86AE8D2D4152BA00D73D06 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5D87339B2B7F88C9001A176F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5DF1FAA32D416421006F2067 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5DF1FAB92D416864006F2067 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 5D5664B22B7EF0970094F87D /* Build configuration list for PBXProject "colemak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5664AE2B7EF0970094F87D;
+			packageReferences = (
+				5D8733B42B7F8FF4001A176F /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+				5D8733C12B7FC6CC001A176F /* XCRemoteSwiftPackageReference "UIOnboarding" */,
+			);
+			productRefGroup = 5D5664B82B7EF0970094F87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5664B62B7EF0970094F87D /* colemak */,
+				5D87339B2B7F88C9001A176F /* ColemakKeyboard */,
+				5D86AE8D2D4152BA00D73D06 /* ColemakKeyboardTabbed */,
+				5DF1FAA32D416421006F2067 /* ColemakKeyboardDH */,
+				5DF1FAB92D416864006F2067 /* ColemakKeyboardOG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5664B52B7EF0970094F87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5664C42B7EF0980094F87D /* Preview Assets.xcassets in Resources */,
+				5D5664C12B7EF0980094F87D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D86AE8C2D4152BA00D73D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D87339A2B7F88C9001A176F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF1FAA22D416421006F2067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF1FAB82D416864006F2067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5664B32B7EF0970094F87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5664BD2B7EF0970094F87D /* ContentView.swift in Sources */,
+				5D5664BB2B7EF0970094F87D /* colemakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D86AE8A2D4152BA00D73D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8733982B7F88C9001A176F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8733BA2B7F9044001A176F /* LayoutProvider.swift in Sources */,
+				5D87339F2B7F88C9001A176F /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF1FAA02D416421006F2067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF1FAB62D416864006F2067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D86AE942D4152BA00D73D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D86AE8D2D4152BA00D73D06 /* ColemakKeyboardTabbed */;
+			targetProxy = 5D86AE932D4152BA00D73D06 /* PBXContainerItemProxy */;
+		};
+		5D8733A22B7F88C9001A176F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D87339B2B7F88C9001A176F /* ColemakKeyboard */;
+			targetProxy = 5D8733A12B7F88C9001A176F /* PBXContainerItemProxy */;
+		};
+		5DF1FAAA2D416421006F2067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF1FAA32D416421006F2067 /* ColemakKeyboardDH */;
+			targetProxy = 5DF1FAA92D416421006F2067 /* PBXContainerItemProxy */;
+		};
+		5DF1FAC02D416865006F2067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF1FAB92D416864006F2067 /* ColemakKeyboardOG */;
+			targetProxy = 5DF1FABF2D416865006F2067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D5664C52B7EF0980094F87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5664C62B7EF0980094F87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5664C82B7EF0980094F87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"colemak/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Colemak;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D5664C92B7EF0980094F87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"colemak/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Colemak;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D86AE962D4152BA00D73D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColemakKeyboardTabbed/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Colemak (Tab)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak.ColemakKeyboardTabbed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D86AE972D4152BA00D73D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColemakKeyboardTabbed/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Colemak (Tab)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak.ColemakKeyboardTabbed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D8733A52B7F88C9001A176F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColemakKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Colemak;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak.ColemakKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D8733A62B7F88C9001A176F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColemakKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Colemak;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak.ColemakKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DF1FAAE2D416421006F2067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColemakKeyboardDH/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Colemak (DH)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak.ColemakKeyboardDH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DF1FAAF2D416421006F2067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColemakKeyboardDH/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Colemak (DH)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak.ColemakKeyboardDH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DF1FAC42D416865006F2067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColemakKeyboardOG/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Colemak (OG)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak.ColemakKeyboardOG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DF1FAC52D416865006F2067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FT82R3S6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColemakKeyboardOG/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Colemak (OG)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetched.colemak.ColemakKeyboardOG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5664B22B7EF0970094F87D /* Build configuration list for PBXProject "colemak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5664C52B7EF0980094F87D /* Debug */,
+				5D5664C62B7EF0980094F87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5664C72B7EF0980094F87D /* Build configuration list for PBXNativeTarget "colemak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5664C82B7EF0980094F87D /* Debug */,
+				5D5664C92B7EF0980094F87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D86AE992D4152BA00D73D06 /* Build configuration list for PBXNativeTarget "ColemakKeyboardTabbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D86AE962D4152BA00D73D06 /* Debug */,
+				5D86AE972D4152BA00D73D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8733A72B7F88C9001A176F /* Build configuration list for PBXNativeTarget "ColemakKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8733A52B7F88C9001A176F /* Debug */,
+				5D8733A62B7F88C9001A176F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF1FAAD2D416421006F2067 /* Build configuration list for PBXNativeTarget "ColemakKeyboardDH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF1FAAE2D416421006F2067 /* Debug */,
+				5DF1FAAF2D416421006F2067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF1FAC32D416865006F2067 /* Build configuration list for PBXNativeTarget "ColemakKeyboardOG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF1FAC42D416865006F2067 /* Debug */,
+				5DF1FAC52D416865006F2067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D8733B42B7F8FF4001A176F /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = revision;
+				revision = a93e50892bc20451448337386415c818cc6d8d15;
+			};
+		};
+		5D8733C12B7FC6CC001A176F /* XCRemoteSwiftPackageReference "UIOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lascic/UIOnboarding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D86AE9B2D41531700D73D06 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8733B42B7F8FF4001A176F /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+		5D8733B52B7F8FF4001A176F /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8733B42B7F8FF4001A176F /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+		5D8733B72B7F8FFB001A176F /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8733B42B7F8FF4001A176F /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+		5D8733C22B7FC6CC001A176F /* UIOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8733C12B7FC6CC001A176F /* XCRemoteSwiftPackageReference "UIOnboarding" */;
+			productName = UIOnboarding;
+		};
+		5DF1FAB42D416460006F2067 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8733B42B7F8FF4001A176F /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+		5DF1FACA2D416963006F2067 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D8733B42B7F8FF4001A176F /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D5664AF2B7EF0970094F87D /* Project object */;
+}
